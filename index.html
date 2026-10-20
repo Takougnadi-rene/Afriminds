@@ -8,7 +8,7 @@
     <title>AFRIMINDS — Build the minds that will build Africa</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="site.css">
-    <script src="site.js" defer></script>
+    <script src="site.js?v=2" defer></script>
 </head>
 <body>
     <header class="site-header">
@@ -17,13 +17,13 @@
                 <span class="brand-mark" aria-hidden="true">A</span>
                 <span>AFRI<span class="brand-accent">MINDS</span></span>
             </a>
-            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">
-                <span class="visually-hidden">Open menu</span>
+            <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navigation">
                 <span class="menu-lines" aria-hidden="true"></span>
             </button>
             <div class="nav-links" id="navigation">
                 <a href="#about">Our vision</a>
                 <a href="#mission">Our mission</a>
+                <a href="#team">Our team</a>
                 <a href="#values">Our values</a>
                 <a class="nav-cta" href="#resources">Explore AFRIMINDS <span aria-hidden="true">↗</span></a>
             </div>
@@ -78,17 +78,35 @@
                 <p>Natural-resource potential can become an <em>educational opportunity</em> for an entire generation.</p>
                 <span class="statement-source">The belief that brings us together</span>
             </div>
-            <div class="container team-strip">
-                <div class="team-heading">
-                    <p class="eyebrow">Our team</p>
-                    <p>A vision built together.</p>
+        </section>
+
+        <section class="team-section section-pad" id="team">
+            <div class="container">
+                <div class="team-section-heading">
+                    <div>
+                        <p class="eyebrow">The people behind AFRIMINDS</p>
+                        <h2>Meet <span>our team.</span></h2>
+                    </div>
+                    <p>We are young African changemakers working together to connect natural-resource potential with practical, technology-driven education.</p>
                 </div>
-                <div class="team-names">
-                    <span>Bonheur Beni Muhoza Karangwa</span>
-                    <span>Monica Kuei Matueny Majak</span>
-                    <span>Essozimna Ren&eacute; Takougnadi</span>
-                    <span>UMURERWA Sophie</span>
-                    <span>Aruwa Daniel Durotimi Samaigor</span>
+                <article class="team-profile">
+                    <div class="team-profile-photo">
+                        <img src="images/rene.jpeg" alt="Portrait of Essozimna Ren&eacute; Takougnadi" loading="lazy" decoding="async">
+                    </div>
+                    <div class="team-profile-info">
+                        <p class="eyebrow">AFRIMINDS team member</p>
+                        <h3>Essozimna Ren&eacute; Takougnadi</h3>
+                        <span class="team-profile-index">01 <span aria-hidden="true">/</span> AFRIMINDS</span>
+                    </div>
+                </article>
+                <div class="team-roster">
+                    <p class="eyebrow">More team profiles coming soon</p>
+                    <div class="team-names">
+                        <span>Bonheur Beni Muhoza Karangwa</span>
+                        <span>Monica Kuei Matueny Majak</span>
+                        <span>UMURERWA Sophie</span>
+                        <span>Aruwa Daniel Durotimi Samaigor</span>
+                    </div>
                 </div>
             </div>
         </section>
